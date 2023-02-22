@@ -1,0 +1,24 @@
+.list-all {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.head-div {
+    display: flex;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: inline-block;
+    max-width: 70rem;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    text-transform: capitalize;
+    word-break: break-all;
+    line-height: 20px;
+}
