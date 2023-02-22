@@ -30,24 +30,23 @@ html, body {
     transition: all 1s ease;
 }
 
+
 body::-webkit-scrollbar {
     all: none;
     width: 10px;
     background-color: #ffffff18;
     opacity: 0.5;
 }
-
-
 body::-webkit-scrollbar-thumb {
     border: var(--border-scroll);
     background-color: #ffffff32;
     border-radius: 1rem;
 
 }
-
 body::-webkit-scrollbar:hover {
     opacity: 1;
 }
+
 
 input[type='text'] {
     width: 25em;
@@ -65,25 +64,20 @@ input[type='text']:hover {
     border: 1px solid #ffffff4d;
     transition: border 1s ease;
 }
-
-
 input[type='checkbox'] {
     width: 10px;
     height: 10px;
     cursor: pointer;
 }
-
 input[type='checkbox']:checked ~ font {
     text-decoration: line-through;
     transition: all .3s ease-in-out;
     color: #0091ff;
     animation: done 1s linear;
 }
-
 input[type='checkbox']:checked ~ font:hover {
     -webkit-text-stroke: 0.1px #9911;
 }
-
 input[type='checkbox']:not(:checked) ~ font {
     text-decoration: none;
     transition: all .3s ease-in-out;
@@ -102,7 +96,6 @@ input[type='checkbox']:not(:checked) ~ font {
     background-color: #393a3cc1;
     box-shadow: 0px 0px 8px -2px #00000056;
 }
-
 .buttons > div {
     display: flex;
     width: 100%;
@@ -114,8 +107,6 @@ input[type='checkbox']:not(:checked) ~ font {
     flex: 1;
     gap: 5px;
 }
-
-
 button {
     width: 5rem;
     height: 1.8rem;
@@ -132,7 +123,6 @@ button {
     min-height: 2rem;
     max-height: 4rem;
 }
-
 button:active {
 border: 1px solid transparent;
 transition: all 1s ease;
@@ -145,8 +135,6 @@ transition: all 1s ease;
     top: 5px;
     right: 18px;
 }
-
-
 .beta {
     display: flex;
     justify-content: center;
