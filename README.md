@@ -36,7 +36,7 @@
 </div>
 
 
-<h2 align="center"> Futures </h2>
+<h2 align="center"> Features </h2>
 
 - [x] Remember last theme used
 - [x] 7 days to storage all todo
